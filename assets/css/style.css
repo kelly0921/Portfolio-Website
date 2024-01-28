@@ -309,14 +309,8 @@ header .navbar ul li a:hover {
 .social-icons a.github:hover {
   background-color: #0e0e0e;
 }
-.social-icons a.twitter:hover {
-  background-color: #00aced;
-}
 .social-icons a.linkedin:hover {
   background-color: #007bb6;
-}
-.social-icons a.dev:hover {
-  background-color: #070707;
 }
 .social-icons a.instagram:hover {
   background-color: #ee00da;
@@ -461,7 +455,7 @@ header .navbar ul li a:hover {
 /* skills section starts */
 .skills {
   min-height: 90vh;
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  background: #fcb7c2;
 }
 .skills h2 {
   color: #fff;
@@ -534,7 +528,7 @@ header .navbar ul li a:hover {
 
 /* education section starts */
 .education {
-  background: #e5ecfb;
+  background: #ffd1db;
   min-height: 80vh;
 }
 .education .qoute {
@@ -588,7 +582,7 @@ header .navbar ul li a:hover {
 }
 .education .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #012970;
+  color: #000000;
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -601,7 +595,7 @@ header .navbar ul li a:hover {
 }
 .education h4 {
   font-size: 2rem;
-  color: rgb(34, 109, 0);
+  color: #abd7e6;
   text-align: left;
   margin: 1rem;
   font-family: "Nunito", sans-serif;
@@ -642,7 +636,7 @@ header .navbar ul li a:hover {
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #000031, #00002c);
+  background: #fcb7c2;
 }
 .work h2 {
   color: #fff;
@@ -760,6 +754,9 @@ header .navbar ul li a:hover {
 /* work section ends */
 
 /* experience section starts */
+.experience {
+  background: #ffd1db;
+}
 .experience .timeline {
   position: relative;
   max-width: 1200px;
@@ -790,7 +787,7 @@ header .navbar ul li a:hover {
   height: 25px;
   right: -17px;
   background-color: rgb(255, 255, 255);
-  border: 4px solid #ff9f55;
+  border: 4px solid #ffffff;
   top: 15px;
   border-radius: 50%;
   z-index: 100;
@@ -815,9 +812,9 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #f68c09;
+  border: medium solid #ffffff;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f68c09;
+  border-color: transparent transparent transparent #ffffff;
 }
 /* arrows pointing left  */
 .experience .right::before {
@@ -828,15 +825,15 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #f68c09;
+  border: medium solid #ffffff;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
+  border-color: transparent #ffffff transparent transparent;
 }
 .experience .right::after {
   left: -16px;
 }
 .experience .content {
-  background-color: #f68c09;
+  background-color: #ffffff;
   position: relative;
   border-radius: 6px;
 }
@@ -932,7 +929,7 @@ header .navbar ul li a:hover {
 
 /* contact section starts */
 .contact {
-  background: #e5ecfb;
+  background: #fdfee4;
   min-height: 60vh;
 }
 .contact .container {
